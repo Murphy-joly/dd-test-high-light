@@ -54,5 +54,13 @@ public interface MessageChannel {
 	 * including a timeout of an interrupt of the send
 	 */
 	boolean send(Message<?> message, long timeout);
+/**
+	 * Return the message payload.
+	 */
+	T getPayload();
 
+	/**
+	 * Return message headers for the message (never {@code null} but may be empty).
+	 */
+	MessageHeaders getHeaders();
 }
