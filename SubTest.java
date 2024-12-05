@@ -8,6 +8,7 @@ public class SubTest{
     private final String name = "hello mei tuan";
 
     private final int num = 1234567;
+    private final Integer num2 = 1234567;
     @Override
     public String toString(){
         return super.toString();
