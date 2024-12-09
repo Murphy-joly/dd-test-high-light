@@ -30,7 +30,7 @@ public interface MessageChannel {
 	 */
 	long INDEFINITE_TIMEOUT = -1;
 
-
+	//add line test
 	/**
 	 * Send a {@link Message} to this channel. If the message is sent successfully,
 	 * the method returns {@code true}. If the message cannot be sent due to a
@@ -53,6 +53,5 @@ public interface MessageChannel {
 	 * @return {@code true} if the message is sent, {@code false} if not
 	 * including a timeout of an interrupt of the send
 	 */
-	boolean send(Message<?> message, long timeout);
 
 }
