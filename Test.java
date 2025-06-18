@@ -1,6 +1,6 @@
 /*
  * Copyright 2002-2016 the original author or authors.
- *
+ ssss*
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -54,5 +54,13 @@ public interface MessageChannel {
 	 * including a timeout of an interrupt of the send
 	 */
 	boolean send(Message<?> message, long timeout);
+/**
+	 * Return the message payload.
+	 */
+	T getPayload();
 
+	/**
+	 * Return message headers for the message (never {@code null} but may be empty).
+	 */
+	MessageHeaders getHeaders();
 }
