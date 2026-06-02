@@ -28,7 +28,8 @@ Apache License 2.0
 
 ## 👤 作者
 
-Murphy-joly
+- Murphy-joly
+- 小美
 
 ---
 
